@@ -14,13 +14,13 @@ public class Hotel {
     }
 
     public String toString() {
-        return "Hotel{" +
-                "name='" + name + '\'' +
-                ", description='" + description + '\'' +
-                ", parking=" + parking +
-                ", vote=" + vote +
-                ", distanceToCenter=" + distanceToCenter +
-                '}';
+        return "Hotel { " +
+                "\n name= '" + this.name + '\'' +
+                ",\n description= '" + this.description + '\'' +
+                ",\n parking= " + this.parking +
+                ",\n vote= " + this.vote +
+                ",\n distanceToCenter= " + this.distanceToCenter +
+                "\n }";
     }
 }
 
